@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<title>Date</title>
+    
+    <script type="text/javascript" charset="utf-8">
+	today=new Date();
+	hora=today.getHours();
+	alert(hora);//De esta manera me muestra la hora de este momento el día de hoy
+	
+	//if(hora<=8){
+	//	imgen="http://static3.fondosypantallas.com/wp-content/uploads/2009/04/gatitos-4.jpg"
+	//	}else{
+	//	imagen="http://www.encabezadostwitter.com/panel/encabezados/hermosa-gatita.jpeg"
+	//};
+	
+	
+	
+	
+	
+	</script>
+    
+
+</head>
+
+<body>
+	 <script type="text/javascript" charset="utf-8">
+	 if(today.getHours() <=9){//Si cambio la hora cambia la imagen
+		document.body.style.backgroundImage="url('http://static3.fondosypantallas.com/wp-content/uploads/2009/04/gatitos-4.jpg')";
+	}
+	else {
+		document.body.style.backgroundImage="url('http://www.encabezadostwitter.com/panel/encabezados/hermosa-gatita.jpeg')";	
+	}
+	 </script>
+
+	<!--<script type="text/javascript" charset="utf-8">
+		document.write("<img src='" + imagen + "'/>");//Las comillas dobles significa te voy a enviar una cadena
+	</script>-->
+	
+</body>
+</html>
